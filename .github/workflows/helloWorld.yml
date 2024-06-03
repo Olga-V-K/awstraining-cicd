@@ -34,7 +34,7 @@ jobs:
       - name: Count characters
         id: characters_length
         run: |
-          last_name="${{ inputs_last_name }}"
+          last_name="${{ inputs.last_name }}"
           length=${#last_name}
           echo "lenght=$length" >> $GITHUB_OUTPUT
 
