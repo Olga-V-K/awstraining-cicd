@@ -1,5 +1,5 @@
 name: Hello world
-run-name: Hellow ${{ inputs.name }} run
+run-name: Hello ${{ inputs.name }} run
 
 on:
   workflow_dispatch:
