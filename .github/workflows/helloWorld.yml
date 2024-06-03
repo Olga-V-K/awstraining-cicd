@@ -36,7 +36,7 @@ jobs:
         run: |
           last_name="${{ inputs.last_name }}"
           length=${#last_name}
-          echo "lenght=$length" >> $GITHUB_OUTPUT
+          echo "length=$length" >> $GITHUB_OUTPUT
 
       - name: Test
         run: |
